@@ -1,0 +1,61 @@
+@media screen and (max-width:768px) {
+    .menuToggle {
+        display: block;
+    }
+    .menu {
+        display: none;
+        position: absolute;
+        top: 25px;
+        left: -80px;
+        background: #ffffff;
+    }
+    .menu li {
+        float: none;
+        padding: 10px;
+    }
+    .padding {
+        padding: 0 30px;
+    }
+    .about {
+       padding: 30px;
+    }
+    .left, .right {
+        float: none;
+        width: 100%;
+    }
+    .left-padding {
+        padding: 30px;
+    }
+    .excellence-flex {
+        padding: 25px 0;
+    }
+    .excellence {
+        padding: 0 50px;
+    }
+    .quotes {
+        padding: 30px;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .autor {
+        margin: 23px;
+    }
+    .customers img {
+        padding: 40px;
+    }
+
+    .form input[type=text], .ta-comment {
+        width: 87%;
+    }
+    .form div {
+        float: none;
+        width: 100%;
+    }
+    footer {
+        justify-content: left;
+        padding: 30px;
+    }
+    .nav-footer ul {
+        margin-right: 19px;
+    }
+}
